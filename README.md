@@ -10,6 +10,10 @@ A `<Hyperlink />` component for [react-native](http://facebook.github.io/react-n
 npm i --save react-native-hyperlink
 ```
 
+## Run
+```sh
+expo start
+```
 ## Props
 | name | desc | type | default
 | --- | --- | --- | --- |
@@ -21,7 +25,7 @@ npm i --save react-native-hyperlink
 |`linkDefault`|A platform specific fallback to handle `onPress`. Uses [Linking](https://facebook.github.io/react-native/docs/linking.html). Disabled by default | `bool`
 |`injectViewProps`| Func with url as a param to inject props to the clickable component | `func` | `i => ({})`
 
-## Test CODE
+## Test CODE of App.js File
 
 ```jsx
 import React from 'react';
